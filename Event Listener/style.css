@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* flex korle content pasapasi thake*/
+.parent
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.red
+{
+    height: 40px;
+    width: 80px;
+    background-color: red;
+    margin-right: 10px;
+
+}
+.green
+{
+    height: 40px;
+    width: 80px;
+    background-color:green;
+    margin-right: 10px;
+}
+.blue
+{
+    height: 40px;
+    width: 80px;
+    background-color: blue;
+}
+.circle
+{
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    background-color: coral;
+    border-radius: 50%;
+    top: 43%;
+    left: 43%;
+}
